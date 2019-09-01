@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_invitation"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_invitation" />
+
+    <item
+        android:id="@+id/navigation_baby_on_boarding"
+        android:icon="@drawable/ic_baby"
+        android:title="@string/title_baby_on_boarding" />
+
+    <item
+        android:id="@+id/navigation_finger_crossed"
+        android:icon="@drawable/ic_girl_or_boy"
+        android:title="@string/title_finger_crossed" />
+
+</menu>

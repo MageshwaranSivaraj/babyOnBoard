@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_16sdp"
+        android:paddingRight="@dimen/_16sdp"
+        android:paddingTop="@dimen/_16sdp">
+
+        <TextView
+            style="@style/appText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manoj and Priya invites" />
+
+        <ImageView
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_180sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_cot" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:fitsSystemWindows="true"
+            android:fillViewport="true"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/appText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/invitation_1" />
+
+                <TextView
+                    style="@style/appText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/invitation_2" />
+
+                <TextView
+                    style="@style/appText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/invitation_3" />
+
+                <TextView
+                    style="@style/appText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    style="@style/appText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/place"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    style="@style/appText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/showOnMap"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    style="@style/appText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/invitation_4" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

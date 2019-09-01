@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "895170073912",
+    "firebase_url": "https://babyshower-251511.firebaseio.com",
+    "project_id": "babyshower-251511",
+    "storage_bucket": "babyshower-251511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895170073912:android:8dc7e142b40bb5da",
+        "android_client_info": {
+          "package_name": "com.leodroid.babyonboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895170073912-rafcmhrftdhqgehl5k0oabq4omqci6tf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj_SUCzVGQopABzYykv0AzVcisDVv7fEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895170073912-rafcmhrftdhqgehl5k0oabq4omqci6tf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
